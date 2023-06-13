@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio • GL</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+  </head>
+  <body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+      <header>
+        <div class="logo">
+          <a href="#">GL</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+            <li><a href="#sobremi" onclick="seleccionar()">ABOUT ME</a></li>
+            <li>
+              <a href="#curriculum" onclick="seleccionar()">ESTUDIOS</a>
+            </li>
+            <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+          <img src="img/Captura de Pantalla 2023-06-13 a la(s) 14.56.15.png" alt="" />
+        </div>
+        <h1>Geronimo Lucero</h1>
+        <br />
+        <h2>Web Designer</h2>
+        <div class="redes">
+          <a href="https://www.linkedin.com/in/geronimo-lucero-647305272/"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com/GeronimoLucero"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://mail.google.com/mail/u/0/?pli=1#inbox"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+      <div class="contenido-seccion">
+        <h2>About me</h2>
+        <p>
+          <span>Hola, soy Geronimo Lucero.</span> Desarrollador web altamente
+          apasionado con conocimientos en HTML, CSS, JavaScript y experiencia en
+          el desarrollo de sitios web responsivos. En 2021 comencé mis estudios
+          tanto autodidacta, como en institución(Coderhouse) obteniendo
+          certificación. Me considero una persona creativa, con una fuerte
+          capacidad para resolver problemas y un alto nivel de atención al
+          detalle. En este momento me encuentro en la búsqueda de mi primer
+          trabajo dentro de la industria, en donde pueda seguir aprendiendo y
+          aplicando mis conocimientos.
+        </p>
+
+        <br /><br />
+
+        <div class="fila">
+          <!-- datos personales -->
+          <div class="col">
+            <h3>Datos Personales</h3>
+            <ul>
+              <li>
+                <strong>Teléfono</strong>
+                2477-614244
+              </li>
+              <li>
+                <strong>Gmail</strong>
+                geronimo.code1@gmail.com
+              </li>
+            </ul>
+          </div>
+
+          <!-- intereses -->
+          <div class="col">
+            <h3>Intereses</h3>
+            <div class="contenedor-intereses">
+              <div class="interes">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>JUEGOS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-headphones"></i>
+                <span>MUSICA</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-plane"></i>
+                <span>VIAJAR</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br /><br /><br /><br /><br />
+        <a href="cv/Curriculum 2.pdf" download="">
+          <button>
+            Descargar CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+          </button>
+        </a>
+      </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+      <div class="contenido-seccion">
+        <h2>Estudios</h2>
+        <div class="fila">
+          <div class="col izquierda">
+            <h3>Educación</h3>
+            <div class="item izq">
+              <h4>Desarrollo Web (HTML y CSS)</h4>
+              <span class="casa">Coderhouse</span>
+              <span class="fecha">2021</span>
+              <p></p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>JavaScript</h4>
+              <span class="casa">Coderhouse</span>
+              <span class="fecha">2022</span>
+              <p></p>
+
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Marketing (Comercializacion)</h4>
+              <span class="casa">Universidad Abierta Interamericana (UAI)</span>
+              <span class="fecha">2018 - 2020</span>
+              <p></p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col derecha">
+            <h3></h3>
+            <div class="item der">
+              <h4>Cultura Inglesa</h4>
+              <span class="casa">English Cultural Association Pergamino</span>
+              <span class="fecha">2014 - 2017</span>
+              <p></p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Bootstrap</h4>
+              <span class="casa">Autodidacta</span>
+              <span class="fecha">2021</span>
+              <p></p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>HTML y CSS</h4>
+              <span class="casa">FreeCodeCamp</span>
+              <span class="fecha">2023</span>
+              <p></p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+      <div class="contenido-seccion">
+        <h2>PORTFOLIO</h2>
+        <div class="galeria">
+          <div class="proyecto">
+            <img src="img/vst.png" alt="" />
+            <div class="overlay">
+              <h3>VST SHOP</h3>
+              <p>
+                Es una tienda en donde se utilizo JavaScript puro. Proyecto
+                individual.
+              </p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/DITTO.png" alt="" />
+            <div class="overlay">
+              <h3>DITTO MUSIC</h3>
+              <p>
+                Es una Web en donde se utilizo, html y css. Proyecto individual.
+              </p>
+            </div>
+          </div>
+          <!--<div class="proyecto">
+            <img src="img/" alt="" />
+            <div class="overlay">
+              <h3>Diseño Creativo</h3>
+              <p>Fotografía</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/" alt="" />
+            <div class="overlay">
+              <h3>Diseño Creativo</h3>
+              <p>Fotografía</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/p5.jpg" alt="" />
+            <div class="overlay">
+              <h3>Diseño Creativo</h3>
+              <p>Fotografía</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/p6.jpg" alt="" />
+            <div class="overlay">
+              <h3>Diseño Creativo</h3>
+              <p>Fotografía</p>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
+      <div class="redes">
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
